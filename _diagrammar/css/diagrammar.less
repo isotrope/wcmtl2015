@@ -1,0 +1,39 @@
+@grid-gutter: 30px;
+@main-colour: black;
+@corner-radius: 5px;
+
+.diagrammar-container {
+  position: relative;
+  height: 100%;
+  width: 100%;
+
+  .diag-item {
+	background: white;
+	border: 1px solid @main-colour;
+	border-radius: @corner-radius;
+	cursor: pointer;
+	display: inline-block;
+	padding: @grid-gutter / 2;
+
+	white-space: nowrap;
+
+	&.ui-selected {
+	  background:yellow;
+	}
+  }
+}
+
+.ui-selectable-helper {
+  border: 1px dotted blue;
+}
+
+.diagrammar-debug-box {
+  background-color: white;
+  border: 1px solid blue;
+  border-radius: @corner-radius;
+  padding: @grid-gutter;
+  position: fixed;
+  bottom: @grid-gutter;
+  right: @grid-gutter;
+  z-index: 100;
+}

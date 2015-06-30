@@ -1,0 +1,118 @@
+
+
+
+Intro
+
+
+Défi personnel : Battre le record du nombre d'images de chats utilisées dans une seule présentation à un WordCamp
+
+On ne parlera pas de thèmes qui offrent ce dont on va parler.
+On ne verra pas comment adapter les besoins et le contenu de votre client à un thème ou une extension spécifiques.
+On va voir comment adapter WordPress aux besoin de votre client.
+
+
+
+
+Articles, pages, ... chats?
+La plupart des gens savent qu'à la base WordPress gère des articles (posts) et des pages.
+
+Les articles servent pour tout le contenu qui a côté temporel. Si on veut publier une nouvelle, c'est avec un article qu'on va le faire.
+Les pages servent plutôt pour le contenu qui est toujours applicable. Vous voulez présenter une entreprise? Pour le "À propos de nous", c'est avec une page qu'on va probablement le faire.
+
+Exemple :
+Une question facile : Demanderiez-vous "Affiche-moi les 10 succursales les plus récentes"?
+Probablement pas.
+Les dix articles les 10 articles, les plus récents?
+Définitivement.
+
+Custom Post Types
+Dans plusieurs situations, on peut s'en sortir en adaptant le contenu de notre client en utilisant des pages.
+Registre d'employés? On peut toujours utiliser des pages hiérarchiques.
+
+Au lieu d'essayer de rentrer un cube dans un trou carré, utilisons une fonctionalité déjà présente dans WordPress :
+les Custom Post Types, aussi connus en tant que CPTs.
+Pour aujourd'hui, appellons-les du Contenu Sur Mesure, ou CSM.
+
+Les CSM peuvent "agir" comme des articles (posts) ou des pages.
+Ils peuvent avoir une hiérarchie.
+On peut décider qu'ils ne supportent qu'un titre et une Image à la une (Featured Image).
+Mais aussi des catégories et des tags [TRANSLATE]
+
+Comme on adapte WordPress aux besoin du clients, aussi bien mentionner qu'on peut aussi déclarer des Taxonomies sur mesure.
+
+En créant des Contenus Sur Mesure, on peut maintenant adapter le site au besoin de notre client.
+On peut maintenant gérer des...
+* chats
+* livres
+* événements
+* succursales
+* employés
+* projets
+* portfolios
+* ...
+
+Ils auront leurs propres menus, leurs propre listes de gestions, leurs propres archives (si on veut).
+
+
+
+Postmeta
+Qu'on parle d'articles, de pages ou de CSM, WordPress nous permet d'enregistrer des données connexes, voire des propriétés additionnelles.
+Outre le champ de titre et l'éditeur de contenu, on pourrait vouloir ajouter des propriétés comme
+* la race d'un chat
+* le nombre de pages d'un libre
+* le client d'une réalisation
+* ...
+
+
+WordPress nous permet d'associer des métadonnées à tous nos types de contenus.
+
+
+
+On va mettre de côté les CSM et les métadonnées pendant un instant pour discuter un peu de la préparation d'un site.
+
+
+
+Sitemap + pages
+Quelle est la première étape après avoir rencontré votre client et noté ses besoins?
+
+Demander un design à votre graphiste?
+
+Demander à votre développeur de commencer à préparer le thème et les extensions?
+
+Non!
+
+On va planifier le site entier, sur papier.
+* La méthode papier est optionnelle.
+
+
+
+"Ben. J'ai dessiné ça. Je suis prêt!"
+[site-map-step1]
+
+...pas tout à fait
+
+
+Notre projet exemple :
+Un refuge pour chats
+
+Les refuges pour chats sont générlament des OBNLs.
+Souvent, plutôt que de garder les chats en cage, les animaux sont gardés par des familles d'accueil le temps qu'ils soient adoptés.
+
+
+
+
+
+
+
+
+Properties
+
+
+Dev fields
+
+
+
+
+
+Front-page content
+ACF versus Widgets
