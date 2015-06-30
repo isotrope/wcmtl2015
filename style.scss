@@ -1,0 +1,18 @@
+#main-site-map {
+  #Chat_properties {
+	transition: 500ms;
+	opacity: 0;
+  }
+
+  &.step-1 {
+
+  }
+
+
+  &.step-2 {
+	#Chat_properties {
+	  opacity: 1;
+	}
+  }
+
+}
