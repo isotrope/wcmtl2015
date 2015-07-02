@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" id="main-site-map" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 960 560" style="enable-background:new 0 0 960 560;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:none;stroke:#000000;stroke-width:0.82;stroke-miterlimit:10;}
+	.st1{font-family:'MyriadPro-Regular';}
+	.st2{font-size:12px;}
+	.st3{fill:#FFFFFF;stroke:#000000;stroke-width:1.2096;stroke-miterlimit:10;}
+</style>
+<g id="Main_Block">
+	<g id="XMLID_8_">
+		<rect id="XMLID_7_" x="156.3" y="134.2" class="st0" width="82.3" height="30.4"/>
+		<text id="XMLID_2_" transform="matrix(1 0 0 1 179.3312 152.9076)" class="st1 st2">Accueil</text>
+	</g>
+	<g id="XMLID_13_">
+		<rect id="XMLID_9_" x="255.8" y="134.2" class="st0" width="82.3" height="30.4"/>
+		<text id="XMLID_3_" transform="matrix(1 0 0 1 271.0538 152.9074)" class="st1 st2">Nouvelles</text>
+	</g>
+	<g id="XMLID_14_">
+		<rect id="XMLID_10_" x="355.3" y="134.2" class="st0" width="82.3" height="30.4"/>
+		<text id="XMLID_4_" transform="matrix(1 0 0 1 373.7778 152.9076)" class="st1 st2">À propos</text>
+	</g>
+	<g id="XMLID_15_">
+		<rect id="XMLID_12_" x="304" y="74.3" class="st0" width="82.3" height="30.4"/>
+		<text id="XMLID_1_" transform="matrix(1 0 0 1 305.2387 93.0299)" class="st1 st2">Refuge de chats</text>
+	</g>
+	<g id="XMLID_16_">
+		<rect id="XMLID_11_" x="458.1" y="134.2" class="st0" width="82.3" height="30.4"/>
+		<text id="XMLID_6_" transform="matrix(1 0 0 1 486.0782 152.9073)" class="st1 st2">Chats</text>
+	</g>
+	<g id="XMLID_19_">
+		<rect id="XMLID_17_" x="458.6" y="181.9" class="st3" width="112.7" height="35.4"/>
+		<text id="XMLID_18_" transform="matrix(1 0 0 1 472.3802 203.1153)" class="st1 st2">(un) Chat (single)</text>
+	</g>
+</g>
+<g id="Chat_properties">
+	<text id="XMLID_20_" transform="matrix(1 0 0 1 514.706 250.0886)" class="st1 st2">Nom</text>
+	<text id="XMLID_21_" transform="matrix(1 0 0 1 514.1386 284.5316)" class="st1 st2">Race</text>
+	<text id="XMLID_22_" transform="matrix(1 0 0 1 513.9531 318.9746)" class="st1 st2">Poil</text>
+	<text id="Cat_image" transform="matrix(1 0 0 1 514.163 353.4177)" class="st1 st2">Image</text>
+</g>
+</svg>

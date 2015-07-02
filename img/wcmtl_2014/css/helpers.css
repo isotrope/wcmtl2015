@@ -1,0 +1,121 @@
+/* apply a natural box layout model to all elements */
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.clearfix:before,
+.clearfix:after,
+.row:before,
+.row:after {
+  display: table;
+  content: " ";
+}
+.clearfix:after,
+.row:after {
+  clear: both;
+}
+.content {
+  margin: 0 auto;
+  width: 1280px;
+}
+.reveal .row {
+  margin-right: -15px;
+  margin-left: -15px;
+  width: 1280px;
+}
+.reveal .col-1,
+.reveal .col-2,
+.reveal .col-3,
+.reveal .col-4,
+.reveal .col-5,
+.reveal .col-6,
+.reveal .col-7,
+.reveal .col-8,
+.reveal .col-9,
+.reveal .col-10,
+.reveal .col-11,
+.reveal .col-12 {
+  float: left;
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.reveal .col-12 {
+  width: 100%;
+}
+.reveal .col-11 {
+  width: 91.66666667%;
+}
+.reveal .col-10 {
+  width: 83.33333333%;
+}
+.reveal .col-9 {
+  width: 75%;
+}
+.reveal .col-8 {
+  width: 66.66666667%;
+}
+.reveal .col-7 {
+  width: 58.33333333%;
+}
+.reveal .col-6 {
+  width: 50%;
+}
+.reveal .col-5 {
+  width: 41.66666667%;
+}
+.reveal .col-4 {
+  width: 33.33333333%;
+}
+.reveal .col-3 {
+  width: 25%;
+}
+.reveal .col-2 {
+  width: 16.66666667%;
+}
+.reveal .col-1 {
+  width: 8.33333333%;
+}
+.reveal .col-offset-12 {
+  margin-left: 100%;
+}
+.reveal .col-offset-11 {
+  margin-left: 91.66666667%;
+}
+.reveal .col-offset-10 {
+  margin-left: 83.33333333%;
+}
+.reveal .col-offset-9 {
+  margin-left: 75%;
+}
+.reveal .col-offset-8 {
+  margin-left: 66.66666667%;
+}
+.reveal .col-offset-7 {
+  margin-left: 58.33333333%;
+}
+.reveal .col-offset-6 {
+  margin-left: 50%;
+}
+.reveal .col-offset-5 {
+  margin-left: 41.66666667%;
+}
+.reveal .col-offset-4 {
+  margin-left: 33.33333333%;
+}
+.reveal .col-offset-3 {
+  margin-left: 25%;
+}
+.reveal .col-offset-2 {
+  margin-left: 16.66666667%;
+}
+.reveal .col-offset-1 {
+  margin-left: 8.33333333%;
+}
+.reveal .col-offset-0 {
+  margin-left: 0;
+}

@@ -1,0 +1,97 @@
+@import "helpers.less";
+@import "examples.less";
+@import "lesshat.less";
+
+//@import "clear-sans.css";
+
+body {
+  background: #c5f8d5;
+  background: -moz-radial-gradient(center, circle cover, #f7fbfc 0%, #c5f8d5 100%);
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #f7fbfc), color-stop(100%, #c5f8d5));
+  background: -webkit-radial-gradient(center, circle cover, #f7fbfc 0%, #c5f8d5 100%);
+  background: -o-radial-gradient(center, circle cover, #f7fbfc 0%, #c5f8d5 100%);
+  background: -ms-radial-gradient(center, circle cover, #f7fbfc 0%, #c5f8d5 100%);
+  background: radial-gradient(center, circle cover, #f7fbfc 0%, #c5f8d5 100%);
+  background-color: #f7fbfc;
+}
+body,
+.reveal,
+.reveal h1,
+.reveal h2,
+.reveal h3,
+.reveal h4,
+.reveal h5,
+.reveal h6 {
+//  font-family: 'Roboto', sans-serif;
+//  //letter-spacing: -0.04em;
+//  text-transform: none;
+}
+
+
+#main-title {
+font-size: 2.5em;
+}
+
+
+.reveal section img {
+  border: none;
+}
+
+.reveal  {
+
+img.no-shadow {
+ .box-shadow(none);
+
+  background: transparent;
+
+}
+
+img.full-width {
+  width: 100%;
+}
+
+
+  .home-logo {
+	max-width: 50%;
+  }
+
+  .pipe-logo {
+	max-width: 300px;
+  }
+
+  .universe-gif,
+  .so-much-win,
+  .gif-700{
+	width: 700px;
+  }
+
+  .red {
+  color: red;
+  }
+  .attention {
+	text-shadow: 1px -1px #fe4902, 2px -2px #fe4902, 3px -3px #fe4902, 4px -4px #fe4902, 5px -5px #fe4902, 6px -6px #fe4902;
+  }
+
+
+  .vs-down h2 {
+  line-height:	130px;
+  }
+
+  .inverted {
+	color: white;
+	text-shadow: #333333 -1px -1px, #333333 1px 1px, #333333 -2px -2px,  #333333 2px 2px, #333333 -3px -3px, #333333 -4px -4px;
+  }
+
+} // .reveal
+
+
+
+.full-screen {
+  bottom: 0;
+  display: none;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 29; //reveal controls == 30
+}

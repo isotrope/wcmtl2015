@@ -1,0 +1,234 @@
+/* apply a natural box layout model to all elements */
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.clearfix:before,
+.clearfix:after,
+.row:before,
+.row:after {
+  display: table;
+  content: " ";
+}
+.clearfix:after,
+.row:after {
+  clear: both;
+}
+.content {
+  margin: 0 auto;
+  width: 1280px;
+}
+.reveal .row {
+  margin-right: -15px;
+  margin-left: -15px;
+  width: 1280px;
+}
+.reveal .col-1,
+.reveal .col-2,
+.reveal .col-3,
+.reveal .col-4,
+.reveal .col-5,
+.reveal .col-6,
+.reveal .col-7,
+.reveal .col-8,
+.reveal .col-9,
+.reveal .col-10,
+.reveal .col-11,
+.reveal .col-12 {
+  float: left;
+  position: relative;
+  min-height: 1px;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.reveal .col-12 {
+  width: 100%;
+}
+.reveal .col-11 {
+  width: 91.66666667%;
+}
+.reveal .col-10 {
+  width: 83.33333333%;
+}
+.reveal .col-9 {
+  width: 75%;
+}
+.reveal .col-8 {
+  width: 66.66666667%;
+}
+.reveal .col-7 {
+  width: 58.33333333%;
+}
+.reveal .col-6 {
+  width: 50%;
+}
+.reveal .col-5 {
+  width: 41.66666667%;
+}
+.reveal .col-4 {
+  width: 33.33333333%;
+}
+.reveal .col-3 {
+  width: 25%;
+}
+.reveal .col-2 {
+  width: 16.66666667%;
+}
+.reveal .col-1 {
+  width: 8.33333333%;
+}
+.reveal .col-offset-12 {
+  margin-left: 100%;
+}
+.reveal .col-offset-11 {
+  margin-left: 91.66666667%;
+}
+.reveal .col-offset-10 {
+  margin-left: 83.33333333%;
+}
+.reveal .col-offset-9 {
+  margin-left: 75%;
+}
+.reveal .col-offset-8 {
+  margin-left: 66.66666667%;
+}
+.reveal .col-offset-7 {
+  margin-left: 58.33333333%;
+}
+.reveal .col-offset-6 {
+  margin-left: 50%;
+}
+.reveal .col-offset-5 {
+  margin-left: 41.66666667%;
+}
+.reveal .col-offset-4 {
+  margin-left: 33.33333333%;
+}
+.reveal .col-offset-3 {
+  margin-left: 25%;
+}
+.reveal .col-offset-2 {
+  margin-left: 16.66666667%;
+}
+.reveal .col-offset-1 {
+  margin-left: 8.33333333%;
+}
+.reveal .col-offset-0 {
+  margin-left: 0;
+}
+#example_static {
+  background: #E0E0E0;
+  padding: 20px 30px 0;
+  width: 1020px;
+}
+#example_static .header {
+  background: #BBDEFB;
+}
+#example_static .logo-image {
+  background: #00E676;
+  border-radius: 100px;
+  height: 115px;
+  margin: 0 auto 20px;
+  width: 115px;
+  margin-top: 20px;
+}
+#example_static .main-title {
+  background: #2979FF;
+  height: 65px;
+  margin-top: 20px;
+}
+#example_static .sub-title {
+  background: #00796B;
+  height: 25px;
+  margin-top: 20px;
+}
+#example_static .content-area {
+  margin-top: 20px;
+}
+#example_static .article-container {
+  background: #4FC3F7;
+}
+#example_static .article-container .article-title {
+  background: #69F0AE;
+  height: 75px;
+  margin-top: 20px;
+}
+#example_static .article-container .article-meta {
+  background: #FF8A65;
+  height: 30px;
+  margin-top: 20px;
+}
+#example_static .article-container .article-content {
+  background: #FFFF00;
+  height: 250px;
+  margin-top: 20px;
+}
+#example_static .sidebar {
+  background: #FF9100;
+  float: right;
+  height: 415px;
+}
+#example_static .element {
+  box-shadow: 0 8px 17px 0 rgba(0, 0, 0, 0.2);
+}
+body {
+  background: #c5f8d5;
+  background: -moz-radial-gradient(center, circle cover, #f7fbfc 0%, #c5f8d5 100%);
+  background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%, #f7fbfc), color-stop(100%, #c5f8d5));
+  background: -webkit-radial-gradient(center, circle cover, #f7fbfc 0%, #c5f8d5 100%);
+  background: -o-radial-gradient(center, circle cover, #f7fbfc 0%, #c5f8d5 100%);
+  background: -ms-radial-gradient(center, circle cover, #f7fbfc 0%, #c5f8d5 100%);
+  background: radial-gradient(center, circle cover, #f7fbfc 0%, #c5f8d5 100%);
+  background-color: #f7fbfc;
+}
+#main-title {
+  font-size: 2.5em;
+}
+.reveal section img {
+  border: none;
+}
+.reveal img.no-shadow {
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+  background: transparent;
+}
+.reveal img.full-width {
+  width: 100%;
+}
+.reveal .home-logo {
+  max-width: 50%;
+}
+.reveal .pipe-logo {
+  max-width: 300px;
+}
+.reveal .universe-gif,
+.reveal .so-much-win,
+.reveal .gif-700 {
+  width: 700px;
+}
+.reveal .red {
+  color: red;
+}
+.reveal .attention {
+  text-shadow: 1px -1px #fe4902, 2px -2px #fe4902, 3px -3px #fe4902, 4px -4px #fe4902, 5px -5px #fe4902, 6px -6px #fe4902;
+}
+.reveal .vs-down h2 {
+  line-height: 130px;
+}
+.reveal .inverted {
+  color: white;
+  text-shadow: #333333 -1px -1px, #333333 1px 1px, #333333 -2px -2px, #333333 2px 2px, #333333 -3px -3px, #333333 -4px -4px;
+}
+.full-screen {
+  bottom: 0;
+  display: none;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 29;
+}

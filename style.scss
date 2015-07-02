@@ -1,3 +1,23 @@
+@import "js/reveal.js/css/reveal.scss";
+@import "js/reveal.js/css/theme/source/white.scss";
+
+
+@import "css/helpers.scss";
+
+$main-colour: black;
+
+body {
+  color: $main-colour;
+}
+
+
+
+.home-logo {
+  .home-logo {
+	max-width: 25%;
+  }
+}
+
 #main-site-map {
   #Chat_properties {
 	transition: 500ms;
@@ -9,7 +29,8 @@
   }
 
 
-  &.step-2 {
+  .step-2 & {
+	  transform: scale(5);
 	#Chat_properties {
 	  opacity: 1;
 	}
