@@ -1541,6 +1541,8 @@ body,
   .reveal .refuge-map.refuge-map-3 #Chat_properties,
   .reveal .refuge-map.refuge-map-3 #Nouvelles {
     opacity: 1; }
+.reveal .cat-properties-planning-table {
+  font-size: 2.5vh; }
 .reveal img.full-width {
   width: 100%; }
 .reveal img #main-site-map #Chat_properties {

@@ -363,7 +363,106 @@
 		</section>
 
 
-		<section>Dev fields</section>
+		<section>
+			<section><h1>On commence à connaître les propriétés dont on aura besoin</h1></section>
+			<section>
+				<div class="table-layout">
+					<div class="table-col-6">
+						D'une part on a les propriétés
+						<ul>
+							<li>Nom</li>
+							<li>Race</li>
+							<li>Couleur</li>
+							<li>Biographie</li>
+							<li>Longueur du poil</li>
+							<li>Âge</li>
+							<li>Tempéramment</li>
+							<li>Maladies</li>
+							<li>Dégriffée?</li>
+							<li>Déjà adoptée?</li>
+						</ul>
+
+					</div>
+					<div class="table-col-6 fragment">
+						<p>Pensons à comment les webmestres vont les entrer&nbsp;:</p>
+						<ul>
+							<li>Champ texte</li>
+							<li>Champ WYSIWYG</li>
+							<li>Image</li>
+							<li>Menu déroulant</li>
+							<li>Boutons radio</li>
+							<li>Cases à cocher</li>
+							<li>Carte Google</li>
+							<li>Vidéos (lien YouTube/Vimeo)</li>
+							<li>Groupes de champs</li>
+						</ul>
+					</div>
+				</div>
+			</section>
+			
+			<section>
+				<h4>Tant qu'à y être, pensons aux développeurs</h4>
+				<table class="cat-properties-planning-table">
+					<tr>
+						<th>Propriété</th>
+						<th><code class="fragment" data-fragment-index="1">Nom du champ</code></th>
+						<th><span class="fragment" data-fragment-index="2">Type de champ</span></th>
+					</tr>
+					<tr>
+						<td>Nom</td>
+						<td><code class="fragment" data-fragment-index="1">the_title*</code></td>
+						<td><span class="fragment" data-fragment-index="2">the_title(texte)</span></td>
+					</tr>
+					<tr>
+						<td>Race</td>
+						<td><code class="fragment" data-fragment-index="1">cat_race</code></td>
+						<td><span class="fragment" data-fragment-index="2">Champ texte</span></td>
+					</tr>
+					<tr>
+						<td>Couleur</td>
+						<td><code class="fragment" data-fragment-index="1">cat_colour</code></td>
+						<td><span class="fragment" data-fragment-index="2">Champ texte</span></td>
+					</tr>
+					<tr>
+						<td>Biographie</td>
+						<td><code class="fragment" data-fragment-index="1">the_content*</code></td>
+						<td><span class="fragment" data-fragment-index="2">the_content(éditeur WYSIWYG)</span></td>
+					</tr>
+					<tr>
+						<td>Longueur du poil</td>
+						<td><code class="fragment" data-fragment-index="1">cat_hair_length</code></td>
+						<td><span class="fragment" data-fragment-index="2">Champ nombre</span></td>
+					</tr>
+					<tr>
+						<td>Âge</td>
+						<td><code class="fragment" data-fragment-index="1">cat_age</code></td>
+						<td><span class="fragment" data-fragment-index="2">Champ nombre (ou datepicker)</span></td>
+					</tr>
+					<tr>
+						<td>Tempéramment</td>
+						<td><code class="fragment" data-fragment-index="1">cat_personality</code></td>
+						<td><span class="fragment" data-fragment-index="2">Champs texte</span></td>
+					</tr>
+					<tr>
+						<td>Maladies</td>
+						<td><code class="fragment" data-fragment-index="1">cat_sickness</code></td>
+						<td><span class="fragment" data-fragment-index="2">Champs texte</span></td>
+					</tr>
+					<tr>
+						<td>Dégriffée?</td>
+						<td><code class="fragment" data-fragment-index="1">cat_is_declawed</code></td>
+						<td><span class="fragment" data-fragment-index="2">Boutons radio (oui/non)</span></td>
+					</tr>
+					<tr>
+						<td>Déjà adoptée?</td>
+						<td><code class="fragment" data-fragment-index="1">cat_is_adopted</code></td>
+						<td><span class="fragment" data-fragment-index="2">Boutons radio (oui/non)</span></td>
+					</tr>
+				</table>
+				<small style="margin-top: 20px;">* Pour le nom et le contenu, on va profiter des propriétés (champs de BD) existantes.</small>
+			</section>
+
+		</section>
 
 
 		<section>Front-page content
