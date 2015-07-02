@@ -4,6 +4,7 @@
 	<meta charset="UTF-8">
 	<title></title>
 
+	<link href='http://fonts.googleapis.com/css?family=Asap:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="style.css" />
 </head>
 <body>
@@ -20,7 +21,7 @@
 
 				<div class="row">
 					<div class="col-6">
-						<img class="no-shadow" src="img/me.png" alt="" />
+						<img class="no-shadow" src="img/me-with-keiko.jpg" alt="" />
 					</div>
 					<div class="col-6">
 						<h1>Michal Bluma</h1>
@@ -38,28 +39,39 @@
 			<section>
 				<h2>Défi personnel</h2>
 
-				<p>Battre le record du nombre d'images de chats utilisées dans une seule présentation à un WordCamp</p>
+				<div class="table-layout">
+					<div class="table-col-6 vertical-center">
+						<p>Battre le record du nombre d'images de chats utilisées dans une seule présentation à un WordCamp</p>
 
-				<p>N'oubliez pas d'aller voir <a href="http://www.kittycount.com/">http://www.kittycount.com/</a><br />
-					et de voter! <a href="https://twitter.com/hashtag/wordCatMTL">#wordCatMtl</a></p>
+						<p>N'oubliez pas d'aller voir
+							<a href="http://www.kittycount.com/">http://www.kittycount.com/</a><br />
+							et de voter! <a href="https://twitter.com/hashtag/wordCatMTL">#wordCatMtl</a></p></div>
+					<div class="table-col-6 vertical-center"><img class="full-width" src="gifs/excite.gif" alt="" />
+					</div>
+				</div>
+
 
 			</section>
 		</section>
 
 		<section><h3>Aujourd'hui...</h3>
-			<section>On ne parlera pas de thèmes qui offrent ce dont on va parler.</section>
-			<section>On ne verra pas comment adapter les besoins et le contenu de votre client à un thème ou une extension spécifiques.</section>
-			<section>On va voir comment adapter WordPress aux besoin de votre client.</section>
+			<section><h3>On ne parlera pas de thèmes qui offrent du contenu sur mesure.</h3></section>
+			<section>
+				<h3>On ne verra pas comment adapter les besoins et le contenu de votre client à un thème ou une extension spécifique.</h3>
+			</section>
+			<section><h3>On va voir comment adapter WordPress aux besoins de votre client.</h3></section>
 		</section>
 
 
 		<section>
 			<section>
-				<h1>Articles, pages, ... chats?</h1>
+				<h1>Articles, pages, ...chats?</h1>
 			</section>
 			<section>
-				<small>À la base,</small>
-				<br /> WordPress gère des articles (<em>posts</em>) et des pages.
+				<h2>
+					<small>À la base,</small>
+					<br /> WordPress gère des articles (<em>posts</em>) et des pages.
+				</h2>
 			</section>
 
 			<section>
@@ -86,7 +98,8 @@
 
 			<section>
 				Question facile&nbsp;:
-				<h3>Demanderiez-vous "Affiche-moi les 10 succursales les plus récentes"?</h3>
+				<h3>Demanderiez-vous<br />&laquo;&nbsp;Affiche-moi les 10 succursales les plus récentes&nbsp;&raquo;?
+				</h3>
 
 				<div class="fragment">Probablement pas.</div>
 			</section>
@@ -107,12 +120,12 @@
 			<section>
 				<p>On peut souvent adapter du contenu en utilisant des pages.</p>
 
-				<p class="fragment"> Registre d'employés?<br />On peut toujours utiliser des pages hiérarchiques.</p>
+				<p class="fragment">Registre d'employés?<br />On peut toujours utiliser des pages hiérarchiques.</p>
 			</section>
 
 			<section>
 				<div class="row">
-					<div class="col-6"><img src="gifs/cat-butt.gif" alt="" /></div>
+					<div class="col-6"><img class="full-width" src="gifs/cat-butt.gif" alt="" /></div>
 					<div class="col-6">
 						<div>Au lieu de tricher,</div>
 						<div class="fragment">utilisons une fonctionalité <strong>déjà présente</strong> dans WordPress&nbsp;:
@@ -142,7 +155,7 @@
 			</section>
 
 			<section>
-				<h4>Comme on adapte WordPress aux besoin du clients, aussi bien mentionner qu'on peut aussi déclarer des Taxonomies sur mesure.</h4>
+				<h4>Comme on adapte WordPress aux besoin du clients, rappellons qu'on peut aussi déclarer des Taxonomies sur mesure.</h4>
 			</section>
 
 			<section>
@@ -166,7 +179,7 @@
 				</div>
 			</section>
 
-			<section><h2>Ils auront</h2>
+			<section><h2>Ces <em>Contenus Sur Mesure</em> auront</h2>
 				<ul>
 					<li>leurs propres menus</li>
 					<li>leurs propres listes de gestions</li>
@@ -183,7 +196,7 @@
 				<h1>Métadonnées</h1>
 				<h4><em>Postmeta</em></h4>
 			</section>
-			<section>Qu'on parle d'articles, de pages ou de CSM, WordPress nous permet d'enregistrer des données connexes, voire des propriétés additionnelles.</section>
+			<section>Qu'on parle d'articles, de pages ou de CSM, WordPress nous permet d'enregistrer des propriétés additionnelles.</section>
 			<section>
 				<h3>Outre le champ de titre et l'éditeur de contenu, on pourrait vouloir ajouter des propriétés comme</h3>
 				<ul>
@@ -208,55 +221,146 @@
 
 		<section>
 			<section>
-				<h1>Le site, son plan et ses pages</h1>
+				<h1>Le site, son plan, son cotenu et ses pages</h1>
 			</section>
 
-			<section><h1>Quelle est la première étape après avoir rencontré votre client et noté ses besoins?</h1></section>
-
-			<section><h2>Demander un design à votre graphiste?</h2>
-
-				<div class="fragment"><h1>Non!</h1></div>
+			<section><h3>Quelle est la première étape après avoir rencontré votre client et noté ses besoins?</h3>
 			</section>
 
-			<section><h2>Demander à votre développeur de commencer à préparer le thème et les extensions?</h2>
+			<section>
+				<div class="table-layout">
+					<div class="table-col-6 vertical-center"><h2>Demander un design à votre graphiste?</h2></div>
+					<div class="table-col-6 vertical-center">
+						<div class="fragment">
+							<img class="full-width" src="img/grumpy-non.jpg" alt="" />
+						</div>
+					</div>
+				</div>
+			</section>
 
-				<div class="fragment"><h1>Non!</h1></div>
+			<section>
+				<div class="table-layout">
+					<div class="table-col-6 vertical-center">
+						<h2>Demander à votre développeur de commencer à préparer le thème et les extensions?</h2></div>
+					<div class="table-col-6 vertical-center">
+						<div class="fragment">
+							<img class="full-width" src="img/grumpy-non.jpg" alt="" />
+						</div>
+					</div>
+				</div>
 			</section>
 
 
-			<section><h2>On va planifier le site entier, sur papier.</h2>
-				* La méthode papier est optionnelle.
-				<div class="fragment"><h1>Oui!</h1></div>
+			<section>
+				<div class="table-layout">
+					<div class="table-col-6 vertical-center">
+						<h2>On va planifier le site entier, sur papier.</h2>
+						* La méthode papier est optionnelle.
+					</div>
+					<div class="table-col-6 vertical-center">
+						<div class="fragment">
+							<img class="full-width" src="gifs/grumpy-cat-yes.gif" alt="" />
+
+							<h1>Oui!</h1>
+						</div>
+					</div>
+				</div>
 			</section>
 		</section>
 
 
 		<section>
-			<div class="step-2">
-				<?php include( '_sources/site-map.svg' ); ?>
-			</div>
-			<?php include( '_sources/site-map.svg' ); ?>
+			<h2>La planification d'un site</h2>
 
-			"Ben. J'ai dessiné ça. Je suis prêt!"
-			[site-map-step1]
+			<p>&laquo;&nbsp;Ben. J'ai dessiné ça.&nbsp;&raquo;</p>
+			<?php include( '_sources/site-map-basic.svg' ); ?>
+			<p>&laquo;&nbsp;Je suis prêt.&nbsp;&raquo;</p>
 
-			...pas tout à fait
+			<h2 class="fragment">...pas tout à fait</h2>
 		</section>
 
+		<section>
+			<div class="table-layout">
+				<div class="table-col-6 vertical-center">
+					<h3>Si c'est l'étendue de votre planification, votre graphiste et votre développeur ne sauront pas vraiment ce dont vous avez besoin.</h3>
+				</div>
+				<div class="table-col-6 vertical-center">
+					<img class="full-width" src="gifs/phone-kitty.gif" alt="" />
+				</div>
+			</div>
+		</section>
 
-		<section>Notre projet exemple :
-			Un refuge pour chats
+		<section>
+			<section>
+				<h3>Notre projet exemple&nbsp;:</h3>
 
-			<section>Les refuges pour chats sont générlament des OBNLs.
-				Souvent, plutôt que de garder les chats en cage, les animaux sont gardés par des familles d'accueil le temps qu'ils soient adoptés.
+				<h1 class="fragment">Un refuge pour chats</h1>
+
+			</section>
+			<section>
+				<p>Les refuges pour chats sont généralament des OBNLs.</p>
+
+				<p>Plutôt que de garder les chats en cage, les animaux sont gardés par des familles d'accueil le temps qu'ils soient adoptés.</p>
 			</section>
 
 
-		</section>
+			<section data-transition="slide-in fade-out"><h2>Commençons un plan...</h2>
+
+				<div class="contain-svg refuge-map refuge-map-1">
+					<?php include( '_sources/site-map-refuge-1.svg' ); ?>
+				</div>
+			</section>
+
+			<section data-transition="fade-in fade-out"><h2>Ajoutons les articles</h2>
+
+				<div class="contain-svg refuge-map refuge-map-2">
+					<?php include( '_sources/site-map-refuge-1.svg' ); ?>
+				</div>
+			</section>
+			<section data-transition="fade-in fade-out"><h2>Pensons à nos chats</h2>
+
+				<div class="contain-svg refuge-map refuge-map-3">
+					<?php include( '_sources/site-map-refuge-1.svg' ); ?>
+				</div>
+			</section>
 		</section>
 
 
-		<section>Properties</section>
+		<section>
+			<section><h1>Qu'est-ce qu'un chat? </h1></section>
+
+			<section>
+				<h2>Je vous présente Bettie</h2>
+
+				<div class="table-layout">
+					<div class="table-col-4 vertical-center">
+						<div class="fragment" data-fragment-index="1">
+							<ul>
+								<li>Nom</li>
+								<li>Race</li>
+								<li>Couleur</li>
+								<li>Biographie</li>
+								<li>Longueur du poil</li>
+							</ul>
+						</div>
+					</div>
+					<div class="table-col-4 vertical-bottom">
+						<img class="full-width" src="img/bettie-pic.jpg" alt="" />
+					</div>
+					<div class="table-col-4 vertical-center">
+						<div class="fragment" data-fragment-index="1">
+							<ul>
+								<li>Âge</li>
+								<li>Tempéramment</li>
+								<li>Maladies</li>
+								<li>Dégriffée?</li>
+								<li>Déjà adoptée?</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</section>
+		</section>
 
 
 		<section>Dev fields</section>

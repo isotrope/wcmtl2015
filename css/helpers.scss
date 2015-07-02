@@ -114,3 +114,44 @@
   }
 
 }
+
+
+
+.table-layout {
+  display: table;
+  table-layout: fixed;
+  width: 100%;
+
+  .table-col-3,
+  .table-col-4,
+  .table-col-6 {
+display: table-cell;
+  }
+
+  .table-col-3 {
+	width: 25%;
+  }
+
+ .table-col-4 {
+	width: 33%;
+  }
+  .table-col-6 {
+	width: 50%;
+  }
+
+
+
+  .table-col-3,
+  .table-col-4,
+  .table-col-6 {
+	&.vertical-bottom {
+	  vertical-align: bottom;
+	}
+
+	&.vertical-middle,
+	&.vertical-center  {
+	  vertical-align: middle;
+	}
+  }
+}
+

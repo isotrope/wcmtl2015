@@ -1,7 +1,5 @@
 @import "js/reveal.js/css/reveal.scss";
 @import "js/reveal.js/css/theme/source/white.scss";
-
-
 @import "css/helpers.scss";
 
 $main-colour: black;
@@ -10,30 +8,74 @@ body {
   color: $main-colour;
 }
 
+body,
+.reveal {
+  font-family: 'Asap', sans-serif;
 
+}
 
-.home-logo {
+.reveal {
+
   .home-logo {
 	max-width: 25%;
   }
-}
 
-#main-site-map {
-  #Chat_properties {
-	transition: 500ms;
+  .refuge-map {
+	height: 600px;
+	
+	svg {
+	  max-height: 100%;
+	}
+
+
+  #Chat_properties,
+  #Nouvelles  {
 	opacity: 0;
   }
 
-  &.step-1 {
 
-  }
-
-
-  .step-2 & {
-	  transform: scale(5);
-	#Chat_properties {
+  &.refuge-map-2 {
+	#Nouvelles {
 	  opacity: 1;
 	}
   }
 
+
+	&.refuge-map-3 {
+	  #Chat_properties,
+	  #Nouvelles {
+		opacity: 1;
+	  }
+	}
+
+  }
+
+  img {
+	&.full-width {
+	  width: 100%;
+	}
+
+	#main-site-map {
+	  #Chat_properties {
+		transition: 500ms;
+		opacity: 0;
+	  }
+
+	  &.step-1 {
+
+	  }
+
+	  .step-2 & {
+		transform: scale(5);
+		#Chat_properties {
+		  opacity: 1;
+		}
+	  }
+
+	}
+
+  }
+
 }
+
+// .reveal

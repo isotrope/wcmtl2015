@@ -1,4 +1,3 @@
-@import url(../../lib/font/source-sans-pro/source-sans-pro.css);
 /*
  * reveal.js
  * http://lab.hakim.se/reveal-js
@@ -1142,7 +1141,7 @@ body {
   background-color: white; }
 
 .reveal {
-  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  font-family: "Asap", sans-serif;
   font-size: 38px;
   font-weight: normal;
   color: #222222; }
@@ -1168,7 +1167,7 @@ body {
 .reveal h6 {
   margin: 0 0 20px 0;
   color: #222222;
-  font-family: "Source Sans Pro", Helvetica, sans-serif;
+  font-family: "Asap", sans-serif;
   font-weight: 600;
   line-height: 1.2;
   letter-spacing: normal;
@@ -1353,9 +1352,7 @@ body {
  *********************************************/
 .reveal section img {
   margin: 15px 0px;
-  background: rgba(255, 255, 255, 0.12);
-  border: 4px solid #222222;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.15); }
+  background: rgba(255, 255, 255, 0.12); }
 
 .reveal a img {
   -webkit-transition: all 0.15s linear;
@@ -1498,16 +1495,58 @@ body {
 .reveal .col-offset-0 {
   margin-left: 0; }
 
+.table-layout {
+  display: table;
+  table-layout: fixed;
+  width: 100%; }
+  .table-layout .table-col-3,
+  .table-layout .table-col-4,
+  .table-layout .table-col-6 {
+    display: table-cell; }
+  .table-layout .table-col-3 {
+    width: 25%; }
+  .table-layout .table-col-4 {
+    width: 33%; }
+  .table-layout .table-col-6 {
+    width: 50%; }
+  .table-layout .table-col-3.vertical-bottom,
+  .table-layout .table-col-4.vertical-bottom,
+  .table-layout .table-col-6.vertical-bottom {
+    vertical-align: bottom; }
+  .table-layout .table-col-3.vertical-middle, .table-layout .table-col-3.vertical-center,
+  .table-layout .table-col-4.vertical-middle,
+  .table-layout .table-col-4.vertical-center,
+  .table-layout .table-col-6.vertical-middle,
+  .table-layout .table-col-6.vertical-center {
+    vertical-align: middle; }
+
 body {
   color: black; }
 
-.home-logo .home-logo {
-  max-width: 25%; }
+body,
+.reveal {
+  font-family: "Asap", sans-serif; }
 
-#main-site-map #Chat_properties {
+.reveal .home-logo {
+  max-width: 25%; }
+.reveal .refuge-map {
+  height: 600px; }
+  .reveal .refuge-map svg {
+    max-height: 100%; }
+  .reveal .refuge-map #Chat_properties,
+  .reveal .refuge-map #Nouvelles {
+    opacity: 0; }
+  .reveal .refuge-map.refuge-map-2 #Nouvelles {
+    opacity: 1; }
+  .reveal .refuge-map.refuge-map-3 #Chat_properties,
+  .reveal .refuge-map.refuge-map-3 #Nouvelles {
+    opacity: 1; }
+.reveal img.full-width {
+  width: 100%; }
+.reveal img #main-site-map #Chat_properties {
   transition: 500ms;
   opacity: 0; }
-.step-2 #main-site-map {
+.step-2 .reveal img #main-site-map {
   transform: scale(5); }
-  .step-2 #main-site-map #Chat_properties {
+  .step-2 .reveal img #main-site-map #Chat_properties {
     opacity: 1; }
