@@ -1502,7 +1502,8 @@ body {
   .table-layout .table-col-3,
   .table-layout .table-col-4,
   .table-layout .table-col-6 {
-    display: table-cell; }
+    display: table-cell;
+    vertical-align: middle; }
   .table-layout .table-col-3 {
     width: 25%; }
   .table-layout .table-col-4 {
@@ -1519,6 +1520,10 @@ body {
   .table-layout .table-col-6.vertical-middle,
   .table-layout .table-col-6.vertical-center {
     vertical-align: middle; }
+  .table-layout .table-col-3.vertical-top,
+  .table-layout .table-col-4.vertical-top,
+  .table-layout .table-col-6.vertical-top {
+    vertical-align: top; }
 
 body {
   color: black; }

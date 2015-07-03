@@ -6,8 +6,8 @@ ISO.startReveal = function () {
 		// The "normal" size of the presentation, aspect ratio will be preserved
 		// when the presentation is scaled to fit different resolutions. Can be
 		// specified using percentage units.
-		width                  : 1280,
-		height                 : 720,
+		width                  : 1024,
+		height                 : 768,
 
 		// Factor of the display size that should remain empty around the content
 		margin                 : 0.1,
