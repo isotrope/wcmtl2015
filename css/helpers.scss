@@ -1,8 +1,9 @@
 /* apply a natural box layout model to all elements */
 *, *:before, *:after {
-  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
 }
-
 
 .clearfix:before,
 .clearfix:after,
@@ -11,6 +12,7 @@
   display: table;
   content: " ";
 }
+
 .clearfix:after,
 .row:after {
   clear: both;
@@ -72,7 +74,6 @@
 	width: 8.33333333%;
   }
 
-
   .col-offset-12 {
 	margin-left: 100%;
   }
@@ -115,8 +116,6 @@
 
 }
 
-
-
 .table-layout {
   display: table;
   table-layout: fixed;
@@ -125,21 +124,20 @@
   .table-col-3,
   .table-col-4,
   .table-col-6 {
-display: table-cell;
+	display: table-cell;
+	vertical-align: middle;
   }
 
   .table-col-3 {
 	width: 25%;
   }
 
- .table-col-4 {
+  .table-col-4 {
 	width: 33%;
   }
   .table-col-6 {
 	width: 50%;
   }
-
-
 
   .table-col-3,
   .table-col-4,
@@ -149,7 +147,7 @@ display: table-cell;
 	}
 
 	&.vertical-middle,
-	&.vertical-center  {
+	&.vertical-center {
 	  vertical-align: middle;
 	}
   }
