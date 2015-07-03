@@ -146,7 +146,7 @@
 				<ul>
 					<li><em>agir</em> comme des articles (posts) ou des pages.</li>
 					<li>avoir une hiérarchie</li>
-					<li>supporter que les titres et les images à la une (<em>Featured Image</em>),
+					<li>supporter uniquement les titres et les images à la une (<em>Featured Image</em>),
 						<small>par exemple</small>
 					</li>
 					<li>avoir des catégories et des <em>tags</em></li>
@@ -182,7 +182,7 @@
 			<section><h2>Ces <em>Contenus Sur Mesure</em> auront</h2>
 				<ul>
 					<li>leurs propres menus</li>
-					<li>leurs propres listes de gestions</li>
+					<li>leurs propres sections dans le tableau de bord</li>
 					<li>leurs propres archives
 						<small>(si on veut)</small>
 					</li>
@@ -298,9 +298,9 @@
 
 			</section>
 			<section>
-				<p>Les refuges pour chats sont généralament des OBNLs.</p>
+				<p>Les refuges pour chats sont généralement des OBNLs.</p>
 
-				<p>Plutôt que de garder les chats en cage, les animaux sont gardés par des familles d'accueil le temps qu'ils soient adoptés.</p>
+				<p>Plutôt que de garder les chats en cage, les animaux sont gardés par des familles d'accueil, le temps qu'ils soient adoptés.</p>
 			</section>
 
 
@@ -351,7 +351,7 @@
 						<div class="fragment" data-fragment-index="1">
 							<ul>
 								<li>Âge</li>
-								<li>Tempéramment</li>
+								<li>Tempérament</li>
 								<li>Maladies</li>
 								<li>Dégriffée?</li>
 								<li>Déjà adoptée?</li>
@@ -376,7 +376,7 @@
 							<li>Biographie</li>
 							<li>Longueur du poil</li>
 							<li>Âge</li>
-							<li>Tempéramment</li>
+							<li>Tempérament</li>
 							<li>Maladies</li>
 							<li>Dégriffée?</li>
 							<li>Déjà adoptée?</li>
@@ -439,7 +439,7 @@
 						<td><span class="fragment" data-fragment-index="2">Champ nombre (ou datepicker)</span></td>
 					</tr>
 					<tr>
-						<td>Tempéramment</td>
+						<td>Tempérament</td>
 						<td><code class="fragment" data-fragment-index="1">cat_personality</code></td>
 						<td><span class="fragment" data-fragment-index="2">Champs texte</span></td>
 					</tr>
@@ -461,7 +461,20 @@
 				</table>
 				<small style="margin-top: 20px;">* Pour le nom et le contenu, on va profiter des propriétés (champs de BD) existantes.</small>
 			</section>
-
+<section>
+	<p>On n'a même pas encore parlé de...</p>
+	<ul>
+		<li>Photos du chat
+			<ul>
+				<li>Image à la une</li>
+				<li>Gallerie</li>
+			</ul>
+		</li>
+		<li>Vidéos du chat</li>
+		<li>Lien avec d'autres chats (frères/soeurs)</li>
+		<li>...</li>
+	</ul>
+</section>
 		</section>
 
 
