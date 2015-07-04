@@ -6,12 +6,14 @@ $main-colour: black;
 
 body {
   color: $main-colour;
+  background: url('img/crumpled_white_paper_texture_by_melemel2.jpg') no-repeat center center / cover;
 }
+
+
 
 body,
 .reveal {
   font-family: 'Asap', sans-serif;
-
 }
 
 .reveal {
@@ -22,24 +24,21 @@ body,
 
   .refuge-map {
 	height: 600px;
-	
+
 	svg {
 	  max-height: 100%;
 	}
 
-
-  #Chat_properties,
-  #Nouvelles  {
-	opacity: 0;
-  }
-
-
-  &.refuge-map-2 {
+	#Chat_properties,
 	#Nouvelles {
-	  opacity: 1;
+	  opacity: 0;
 	}
-  }
 
+	&.refuge-map-2 {
+	  #Nouvelles {
+		opacity: 1;
+	  }
+	}
 
 	&.refuge-map-3 {
 	  #Chat_properties,
@@ -53,6 +52,22 @@ body,
   .cat-properties-planning-table {
 	font-size: 2.5vh;
   }
+
+  .zoom-in-benevoles {
+	transform: translateX(60%) scale(3);
+	-webkit-transform: translateX(60%) scale(3);
+  }
+
+  .zoom-in-chats {
+	transform: translate(-80%, -30%) scale(3);
+	-webkit-transform: translate(-80%, -30%) scale(3);
+  }
+  .zoom-in-chats {
+	transform: translate(-60%, -30%) scale(2.2);;
+	-webkit-transform: translate(-60%, -30%) scale(2.2);;
+  }
+
+
 
   img {
 	&.full-width {

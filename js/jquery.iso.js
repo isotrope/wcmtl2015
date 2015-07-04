@@ -1,6 +1,12 @@
 ISO = {};
 
 ISO.startReveal = function () {
+
+	var currLocation = window.location,
+		rootUrl = currLocation.host,
+		backgroundUrl = rootUrl == 'localhost' ? 'http://localhost/wcmtl2015/img/crumpled_white_paper_texture_by_melemel2.jpg' : 'http://isotrope.net/talks/wcmtl2015/img/crumpled_white_paper_texture_by_melemel2.jpg';
+
+
 	Reveal.initialize({
 
 		// The "normal" size of the presentation, aspect ratio will be preserved
@@ -83,11 +89,11 @@ ISO.startReveal = function () {
 		// Number of slides away from the current that are visible
 		viewDistance           : 3,
 
-		// Parallax background image
-		parallaxBackgroundImage: '', // e.g. "'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg'"
-
-		// Parallax background size
-		parallaxBackgroundSize : '' // CSS syntax, e.g. "2100px 900px"
+		//// Parallax background image
+		//parallaxBackgroundImage: backgroundUrl, // e.g. "'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg'"
+		//
+		//// Parallax background size
+		//parallaxBackgroundSize : '2048px 1536px' // CSS syntax, e.g. "2100px 900px"
 
 
 	});

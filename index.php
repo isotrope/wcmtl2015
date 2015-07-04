@@ -15,6 +15,15 @@
 
 			<section data-background="img/test_pattern.png"></section>
 
+			<section>
+				<div class="table-layout">
+					<div class="table-col-6">	<h1>Du contenu sur mesure</h1>
+						<h2>(sur papier!)</h2></div>
+					<div class="table-col-6"><img class="full-width" src="gifs/cat-glasses.gif" alt="" /></div>
+				</div>
+
+
+			</section>
 
 			<section>
 				<section>
@@ -157,7 +166,7 @@
 				</section>
 
 				<section>
-					<h4>Comme on adapte WordPress aux besoin du clients, rappellons qu'on peut aussi déclarer des Taxonomies sur mesure.</h4>
+					<h4>Comme on adapte WordPress aux besoins du clients, rappellons qu'on peut aussi déclarer des Taxonomies sur mesure.</h4>
 				</section>
 
 				<section>
@@ -496,7 +505,17 @@
 			<section>
 				<section>
 					<h1>Notre nouveau plan</h1>
-					[IMAGE OF CAT SHELTER SITEMAP]
+					<?php include('_sources/site-map-final.svg'); ?>
+				</section>
+				<section>
+					<div class="site-map-final zoom-in-benevoles">
+					<?php include('_sources/site-map-final.svg'); ?>
+					</div>
+				</section>
+				<section>
+					<div class="site-map-final zoom-in-chats">
+						<?php include('_sources/site-map-final.svg'); ?>
+					</div>
 				</section>
 				<section>
 					<div class="table-layout">
@@ -525,36 +544,46 @@
 
 				<section>
 					<h1>Où va le code?</h1>
+
 					<h2 class="fragment">Dans une extension (<em>plugin</em>)</h2>
 				</section>
 			</section>
 
 			<section>
 				<section>
-<h1>Derrière le devant</h1>
-				<h2>Morceaux d'une page d'accueil</h2>
-				</section>
-				<section>
-					<h2>Trouvez le juste milieu entre					</h2>
-					<h1>Trop de champs</h1>
-					<p>et</p>
-					<h1>Devoir écrire du HTML</h1>
+					<h1>Derrière le devant</h1>
+
+					<h2>Morceaux d'une page d'accueil</h2>
 				</section>
 
 				<section>
 					<div class="table-layout">
-						<div class="table-col-6"><?php include('_sources/home-wireframe.svg'); ?></div>
+						<div class="table-col-6"><?php include( '_sources/home-wireframe.svg' ); ?></div>
 						<div class="table-col-6 vertical-top">
 							<h3>Que d'éléments!</h3>
+
 							<h3>Que d'occasions pour que ça vire mal!</h3>
 						</div>
 					</div>
-
 				</section>
+
+
+				<section>
+					<h2>Trouvez le juste milieu entre </h2>
+
+					<h1>Trop de champs</h1>
+
+					<p>et</p>
+
+					<h1>Devoir écrire du HTML</h1>
+				</section>
+
+
 			</section>
 
 			<section>
 				<h1>Merci!</h1>
+
 				<h3>N'oubliez pas <a href="http://www.kittycount.com/">http://www.kittycount.com/</a></h3>
 				<img src="gifs/cat-monocle-walking.gif" alt="" />
 			</section>
